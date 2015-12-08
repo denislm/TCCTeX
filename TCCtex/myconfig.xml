@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+
+
+<option name="no_preamble" value="true" />
+
+
+<option name="ignore_hard_page_breaks" value="true" />
+<option name="ignore_hard_line_breaks" value="true" />
+<option name="ignore_empty_paragraphs" value="false" />
+
+
+<option name="use_ooomath" value="true" />
+<option name="formulas" value="latex" /> 
+<option name="use_default_font" value="true" />
+<option name="page_formatting" value="ignore_all" />
+<option name="save_images_in_subdir" value="true" />
+<option name="Figura" value="true" />
+<option name="use_color" value="false" />
+<option name="float_tables" value="true" />
+<option name="float_figures" value="true" />
+<heading-map max-level="4">
+<heading-level-map writer-level="1" name="chapter" level="0" />
+<heading-level-map writer-level="2" name="section" level="1" />
+<heading-level-map writer-level="3" name="subsection" level="2" />
+<heading-level-map writer-level="4" name="subsubsection" level="3" />
+</heading-map>
+<custom-preamble />
+
+
+
+<string-replace input="LaTeX" latex-code="{\LaTeX}" />
+<string-replace input="\clearpage\clearpage" latex-code="" />
+</config>

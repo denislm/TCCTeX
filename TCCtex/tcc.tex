@@ -1,0 +1,97 @@
+\documentclass[a4paper,ruledheader]{abnt}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[pdftex]{graphicx}
+\usepackage{latexsym}
+\usepackage{psfrag}
+\usepackage[section]{placeins}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
+\usepackage{morefloats}
+\usepackage{afterpage}
+\usepackage{supertabular}
+\usepackage{longtable}
+\usepackage[center]{caption}
+\usepackage[export]{adjustbox} % loads also graphicx
+\usepackage[]{times} %mesmo que Times New Roman
+\usepackage{setspace} % espacamento entre linhas
+\setstretch{1.5}% padrao 1.5 de espacamento entre linhas
+\usepackage[titles]{tocloft} %Pacote para alinhar Sumarios
+\setlength{\cftchapindent}{1.0cm}       % ajusta identação dos capítulos no sumário
+\setlength{\cftsecindent}{1.0cm}      % ajusta identação das seções no sumário
+\setlength{\cftsubsecindent}{1.0cm}     % ajusta identação das subseções no sumário
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+
+\renewcommand{\cftfigpresnum}{Figura ~ }
+\renewcommand{\cfttabpresnum}{Tabela ~ }
+
+\renewcommand{\cftfigaftersnumb}{- }
+\renewcommand{\cfttabaftersnumb}{- }
+
+\newlength{\mylenf}
+\settowidth{\mylenf}{\cftfigpresnum}
+\setlength{\cftfignumwidth}{\dimexpr\mylenf+0.8em}
+\setlength{\cfttabnumwidth}{\dimexpr\mylenf+0.8em}
+\renewcommand{\familydefault}{\sfdefault}
+
+\setcounter{tocdepth}{4}
+\DeclareGraphicsExtensions{.pdf,.jpg,.png}
+
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist
+
+
+\renewcommand{\ABNTsectionfontsize}{\flushleft\large\normalfont} %Altera o tamanho da fonte do sub-capitulo
+\renewcommand{\ABNTsubsectionfontsize}{\flushleft\large\normalfont} %Altera o tamanho da fonte do sub-capitulo
+\renewcommand{\ABNTchaptersize}{\large} %Altera o tamanho do titulo do capitulo
+
+
+
+\begin{document}
+
+\onehalfspacing %Espaçamento de 1.5
+
+\graphicspath{{./images/}}%Estrutura básica do documento - Gerados por Template
+
+\include{capa}
+\include{folharosto}
+\include{fichaCatalografica}
+\include{folhaaprovacao}
+
+%Gerados por conversão de documentos
+\include{Resumo}
+\include{Abstract}
+\include{Dedicatoria}
+%\include{Agradecimentos}
+%\include{Epigrafe}
+%Estrutura básica do documento - fim
+
+
+\listoffigures
+\listoftables
+\tableofcontents
+
+%Gerados por conversão de documentos
+\include{Introducao}
+\include{Cap01}
+\include{Cap02}
+\include{Cap03}
+\include{Conclusao}
+
+\include{Referencias}
+
+%Apendices - Não Implementado
+\include{anexo/Anexos}
+%\include{apendices/apendice}
+%Apendices - fim
+
+\nocite{*}
+%Bibliografia - Não Implementado
+\bibliographystyle{abnt-alf}
+\bibliography{biblio}
+%Bibliografia - fim
+
+
+\end{document}

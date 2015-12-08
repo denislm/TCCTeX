@@ -1,0 +1,37 @@
+\select@language {brazil}
+\select@language {brazil}
+\select@language {english}
+\select@language {brazil}
+\contentsline {figure}{\numberline {1}{\ignorespaces Template {\textlatin {\LaTeX }} com Linguagem Apache Velocity}}{28}{figure.3.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de Configura\c {c}\~ao Writer2Latex}}{29}{figure.3.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Modelo de User Stories}}{32}{figure.4.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Caixa de Sele\c {c}\~ao dos Testes Funcionais}}{33}{figure.4.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Modelo de Cart\~ao de Tarefa}}{34}{figure.4.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Parte da arquitetura do software TCCTeX}}{36}{figure.4.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Projeto \ TCCTeX}}{37}{figure.4.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Pacotes do TCCTeX}}{38}{figure.4.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Pacote br.metodista,TCCTeX}}{39}{figure.4.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Importa\c {c}\~oes da Classe Conversor}}{39}{figure.4.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces JLR para Gera\c {c}\~ao de PDF}}{40}{figure.4.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces M\'etodo odtToTex}}{41}{figure.4.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Parte do M\'etodo alterarTex()}}{41}{figure.4.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces JLR para Preenchimento de Template Tex}}{42}{figure.4.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces M\'etodo converterPre()}}{43}{figure.4.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Classe textuais}}{43}{figure.4.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces M\'etodo converterTextuais()}}{44}{figure.4.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Parte do m\'etodo abrir() Principal}}{45}{figure.4.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Pacote Contendo as Telas}}{46}{figure.4.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Pacote Contendo Imagens}}{46}{figure.4.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Interface da Tela Principal}}{48}{figure.4.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Etapa Conclu\'ida}}{48}{figure.4.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Interface da Tela de Informa\c {c}\~oes Essenciais}}{49}{figure.4.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Interface da tela de Pr\'e-Textuais}}{50}{figure.4.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Interface da Tela de Textuais}}{51}{figure.4.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Interface da Tela P\'os-Textuais}}{52}{figure.4.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Interface da Tela Entrega Final}}{53}{figure.4.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces Capa em abnTeX1}}{57}{figure.4.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Folha de Rosto em abnTeX1}}{58}{figure.4.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces Preenchimento de Macros em principal.tex abnTeX2}}{59}{figure.4.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces Pequeno Texto feito no Microsoft Word}}{60}{figure.4.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces Pequeno texto em {\textlatin {\LaTeX }} com mesmo conte\'udo da figura anterior}}{60}{figure.4.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces Pequena parte do c\'odigo XML do docx}}{61}{figure.4.33}
